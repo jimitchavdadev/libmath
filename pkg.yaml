@@ -1,9 +1,7 @@
-# libmath/pkg.yaml
 name: libmath
 version: 1.0.2
 build: cmake
 source: src/
-installHook: make install
+installHook: echo "📥 Installing libmath"
 dependencies:
   - libcore@^2.1.0
-install: echo "📥 Installing libmath"
