@@ -6,5 +6,4 @@ source: src/
 installHook: make install
 dependencies:
   - libcore@^2.1.0
-install:
-	echo "📥 Installing libmath"
+install: echo "📥 Installing libmath"
